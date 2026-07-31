@@ -1,0 +1,58 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: purple;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+h1 {
+ font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  color: white;
+  font-size: 7vw;
+background: linear-gradient(-90deg, rgb(207, 185, 185) 0%, rgb(221, 202, 202) 100%);
+
+  line-height: 1;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  position: relative;
+}
+
+.game{
+    background-color: skyblue;
+    border: solid;
+    width:240px;
+    height: 210px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.box{
+    background-color: skyblue;
+    border: solid;
+    width:80px;
+    height: 70px;
+    font-size:60px;
+    color:red;
+    border-color: black;
+    cursor: pointer;
+}
+
+
+h2{
+    color:skyblue;
+}
+h3{
+    color:red;
+    font-size: 30px;
+}
+
+#again{
+    border-radius: 15px;
+    color:green;
+    background-color: yellow;;
+    width:100px;
+    height: 40px;
+}
+
